@@ -17,7 +17,7 @@
   <project name="seL4.git" path="kernel">
       <linkfile src="libsel4" dest="libs/libsel4"/>
   </project>
-  <project name="sel4-build.git" path="tools">
+  <project name="sel4-build.git" path=".build">
       <linkfile src="Makefile" dest="Makefile"/>
       <linkfile src="Kbuild" dest="Kbuild"/>
       <linkfile src="Kconfig" dest="Kconfig"/>
