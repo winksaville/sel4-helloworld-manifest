@@ -10,7 +10,7 @@
 
 <manifest>
 
-  <remote name="hw" fetch="." />
+  <remote name="origin" fetch="." />
 
   <default revision="master" remote="hw" />
 
