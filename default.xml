@@ -15,7 +15,7 @@
   <default revision="master" remote="hw" />
 
   <project name="seL4.git" path="kernel">
-    <linkfile src="libsel4" dest="../../libs/libsel4"/>
+      <linkfile src="libsel4" dest="libs/libsel4"/>
   </project>
   <project name="common-tool.git" path="tools/common"/>
   <project name="kbuild-tool.git" path="tools/kbuild"/>
@@ -35,10 +35,12 @@
   <project name="libsel4simple-stable.git" path="libs/libsel4simple-stable"/>
   <project name="libplatsupport.git" path="libs/libplatsupport"/>
   <project name="libutils.git" path="libs/libutils"/>
-  <project name="sel4-helloworld.git" path="project/helloworld">
+  <project name="sel4-build.git" path="build">
       <linkfile src="Makefile" dest="Makefile"/>
       <linkfile src="Kbuild" dest="Kbuild"/>
       <linkfile src="Kconfig" dest="Kconfig"/>
+  </project>
+  <project name="sel4-helloworld.git" path="apps/helloworld">
       <linkfile src="master-configs" dest="configs"/>
   </project>
 
