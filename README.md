@@ -16,9 +16,8 @@ And then create a directory for the project and then init and synchronize:
 ```
 mkdir sel4-helloworld
 cd sel4-helloworld
-repo init -u https://github.com/winksaville/sel4-helloworld-manifest.git
+repo init -u git@github.com:winksaville/sel4-helloworld-manifest.git
 repo sync
 ```
-See the sel4-helloworld README.md file for more instructions. They will be
-similar to http://sel4.systems/Download/building.
-building 
+See the sel4-helloworld README.md (https://github.com/winksaville/sel4-helloworld)
+file for more instructions.
