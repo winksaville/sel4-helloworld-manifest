@@ -16,8 +16,14 @@ And then create a directory for the project and then init and synchronize:
 ```
 mkdir sel4-helloworld
 cd sel4-helloworld
-repo init -u git@github.com:winksaville/sel4-helloworld-manifest.git
+repo init -u https://github.com/winksaville/sel4-helloworld-manifest.git
 repo sync
 ```
+You can ignore the clone.bundle errors, see below
+```
+curl: (22) The requested URL returned error: 404 Not Found
+Server does not provide clone.bundle; ignoring.
+```
+
 See the sel4-helloworld README.md (https://github.com/winksaville/sel4-helloworld)
 file for more instructions.
