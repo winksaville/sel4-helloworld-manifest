@@ -12,7 +12,7 @@
 
   <remote name="origin" fetch="." />
 
-  <default revision="master" remote="hw" />
+  <default revision="master" remote="origin" />
 
   <project name="seL4.git" path="kernel">
       <linkfile src="libsel4" dest="libs/libsel4"/>
