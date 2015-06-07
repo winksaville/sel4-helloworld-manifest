@@ -22,6 +22,9 @@
       <linkfile src="Kbuild" dest="Kbuild"/>
       <linkfile src="Kconfig" dest="Kconfig"/>
   </project>
+  <project name="test_LinkFiles.git" path="tools/test_LinkFiles">
+      <linkfile src="test_LinkFiles.py" dest="test_LinkFiles.py"/>
+  </project>
   <project name="common-tool.git" path="tools/common"/>
   <project name="kbuild-tool.git" path="tools/kbuild"/>
   <project name="elfloader-tool.git" path="tools/elfloader"/>
